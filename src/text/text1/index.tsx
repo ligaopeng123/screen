@@ -15,7 +15,7 @@ import './styles.less';
 /**
  * 参数支持
  */
-type direction = 'center' | 'left' | 'right';
+export type direction = 'center' | 'left' | 'right';
 export type Text1Props = {
 	duration?: number;
 	delay?: number;

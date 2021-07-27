@@ -9,4 +9,6 @@
  * @版权所有: pgli
  *
  **********************************************************************/
-export {default as Text1} from "./Text1/index";
+export {default as Text1} from "./text1/index";
+export {default as AlignText} from "./alignText/index";
+export {default as EllipsisText} from "./ellipsisText/index";

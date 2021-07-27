@@ -1,9 +1,9 @@
 import React from 'react';
 import {Meta, Story} from '@storybook/react';
-import Text1, {Text1Props} from '../src/text/Text1';
+import Text1, {Text1Props} from '../src/text/text1';
 
 const meta: Meta = {
-	title: 'text',
+	title: 'Text/text1',
 	component: Text1,
 	argTypes: {
 		children: {
