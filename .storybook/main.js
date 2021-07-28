@@ -17,8 +17,7 @@ module.exports = {
 				"css-loader",
 				'less-loader',
 			]
-		});
-		config.module.rules.push({
+		}, {
 			test: /\.module\.less$/,
 			sideEffects: true,
 			include: path.resolve(__dirname, '../src'),
