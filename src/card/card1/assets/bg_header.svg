@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="261px" height="38px" viewBox="0 0 261 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>Group 5 Copy 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-5-Copy-10">
+                <g id="1">
+                    <g id="Group-2" transform="translate(225.000000, 0.000000)" stroke="#265C8A">
+                        <polygon id="Stroke-3" stroke-opacity="0.600934222" fill-opacity="0.303185096" fill="#215DC4" points="36 26 10 0 5 0 31 26 31 50 36 50"></polygon>
+                    </g>
+                    <path d="M251,26 L225,0 L23,0 L23,19.676 C32.358,23.29 39,32.366 39,43 C39,45.431 38.646,47.777 38,50 L251,50 L251,26 Z" id="Stroke-1" stroke="#265C8A" fill-opacity="0.4" fill="#215DC4"></path>
+                    <path d="M30.5,7.5 L27.5,7.5 L27.5,10.5 L30.5,10.5 L30.5,7.5 Z M37.5,7.5 L34.5,7.5 L34.5,10.5 L37.5,10.5 L37.5,7.5 Z M44.5,7.5 L41.5,7.5 L41.5,10.5 L44.5,10.5 L44.5,7.5 Z" id="形状结合" stroke="#186DC0" fill="#2891FF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

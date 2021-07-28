@@ -1,0 +1,62 @@
+.screen-card-card-bg() {
+    background-size: 100% 100%; // 上下平铺 可能变形
+    background-repeat: no-repeat;
+    background-color: rgba(0 0 0 0);
+}
+
+// card1样式
+.screen-card-card1-base() {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    .screen-card-card-bg;
+    background-image: url("./assets/bg.svg");
+    .title {
+        text-align: center;
+        min-height: 38px;
+        line-height: 38px;
+        padding: 0 16px;
+        font-weight: 500;
+        font-size: 16px;
+        background: 0 0;
+    }
+
+    .down-cnt {
+        color: darkred;
+        font-weight: 900;
+    }
+
+    .body {
+        padding: 16px;
+    }
+}
+
+@boxColor: rgba(10, 183, 239, 0.5);
+@boxShadowSize: 4px 4px 30px @boxColor;
+@animationTime: 0.3s;
+.screen-card-card1 {
+    .screen-card-card1-base;
+}
+
+.screen-card-card1-click {
+    .screen-card-card1;
+    cursor: pointer;
+
+    &:hover {
+        .screen-card-card1-hover;
+    }
+}
+
+.screen-card-card1-hover() {
+    transition: all @animationTime ease-in-out;
+    transform: scale(1.02);
+    background-image: url("./assets/bg_selected.svg");
+    //box-shadow: @boxShadowSize;
+    //animation: glow @animationTime ease-in-out;
+    outline: none;
+}
+
+// 选中样式
+.screen-card-card1-selected {
+    .screen-card-card1-hover;
+}
