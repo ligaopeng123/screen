@@ -7,6 +7,7 @@ const meta: Meta = {
 	component: EllipsisText,
 	argTypes: {
 		children: {
+			defaultValue: 'storybook是个很好用的工具',
 			control: {
 				type: 'text',
 			},
@@ -14,7 +15,7 @@ const meta: Meta = {
 		width: {
 			name: 'width',
 			description: '宽度，支持百分比、calc、px',
-			defaultValue: 1,
+			defaultValue: '100px',
 			type: {name: 'text', required: false},
 			control: {
 				type: 'text'

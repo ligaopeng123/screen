@@ -7,6 +7,7 @@ const meta: Meta = {
 	component: Text1,
 	argTypes: {
 		children: {
+			defaultValue: 'storybook是个很好用的工具库',
 			control: {
 				type: 'text',
 			},
